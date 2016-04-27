@@ -11,7 +11,7 @@ namespace zavoloklom\yii\material\font;
  * @license     MIT
  * @author      Sergey Kupletsky <s.kupletsky@gmail.com>
  */
-class MaterialDesignIconicFontCDNAsset extends yii\web\AssetBundle
+class MaterialDesignIconicFontCDNAsset extends \yii\web\AssetBundle
 {
     public $css = [
         '//cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css',

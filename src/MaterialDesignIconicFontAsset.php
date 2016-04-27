@@ -11,7 +11,7 @@ namespace zavoloklom\yii\material\font;
  * @license     MIT
  * @author      Sergey Kupletsky <s.kupletsky@gmail.com>
  */
-class MaterialDesignIconicFontAsset extends yii\web\AssetBundle
+class MaterialDesignIconicFontAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = '@bower/material-design-iconic-font/dist';
     public $css = [
