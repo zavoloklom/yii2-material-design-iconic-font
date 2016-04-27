@@ -1,0 +1,42 @@
+{
+  "name": "zavoloklom/yii2-material-design-iconic-font",
+  "description": "Yii2 asset for Material Design Iconic Font",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "asset",
+    "material",
+    "icon",
+    "font"
+  ],
+  "homepage": "https://github.com/zavoloklom/yii2-material-design-iconic-font",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey Kupletsky",
+      "email": "s.kupletsky@gmail.com",
+      "homepage": "https://github.com/zavoloklom",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "s.kupletsky@gmail.com",
+    "source": "https://github.com/zavoloklom/yii2-material-design-iconic-font",
+    "issues": "https://github.com/zavoloklom/yii2-material-design-iconic-font/issues",
+    "wiki": "https://github.com/zavoloklom/yii2-material-design-iconic-font/wiki"
+  },
+  "require": {
+    "yiisoft/yii2": "2.0.*",
+    "bower-asset/material-design-iconic-font": "2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "zavoloklom\\yii\\material\\font\\": "src"
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
