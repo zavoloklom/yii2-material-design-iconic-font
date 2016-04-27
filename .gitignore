@@ -49,3 +49,14 @@ Temporary Items
 # JetBrains
 # =========================
 .idea/
+
+# YII2
+# =========================
+vendor/
+tests/
+runtime/
+
+# Composer
+# =========================
+composer.phar
+composer.lock
